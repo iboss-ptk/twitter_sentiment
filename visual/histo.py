@@ -29,7 +29,7 @@ def main():
         y=[score_freq[sb] for sb in score_band]
     )
     data = Data([trace])
-    plot_url = py.plot(data, filename="sheraton-histogram")
+    plot_url = py.plot(data, filename="grand-hyatt-histogram")
     print(plot_url)
 
 
